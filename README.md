@@ -14,3 +14,11 @@ function mcd() {
   git commit
   git push
 ```
+
+## touchx
+
+```shell
+function touchx() {
+  touch "$1" && chmod +x "$1";
+}
+```
